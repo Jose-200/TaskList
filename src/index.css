@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+
+/* Generales */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 22px;
+}
+body{
+  background-color: rgb(248, 248, 248);
+}
