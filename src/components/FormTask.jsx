@@ -26,14 +26,14 @@ const FormTask = ({ saveList, getId }) => {
         type="text"
         name="NameTask"
         id="NameTask"
-        placeholder="Name task"
+        placeholder="Task name"
         onChange={(e) => setName(e.target.value)}
       />
       <input
         type="text"
         name="ContentTask"
         id="ContentTask"
-        placeholder="Content task"
+        placeholder="Task content"
         onChange={(e) => setContent(e.target.value)}
       />
       <button className="save-task">Save</button>
